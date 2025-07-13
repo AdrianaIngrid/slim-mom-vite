@@ -17,7 +17,7 @@ import css from "./App.module.css";
 import UserForm from "./UserForm/UserForm.jsx";
 
 const isProduction = import.meta.env.MODE === "production";
-const basename = isProduction ? "/slim-mom-app" : "/";
+const basename = isProduction ? "/slim-mom-vite/" : "/";
 
 
 
