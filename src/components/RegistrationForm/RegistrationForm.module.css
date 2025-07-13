@@ -1,0 +1,69 @@
+.RegisterW {
+  font-family: "Verdana";
+    font-weight: 700;
+    font-size: 14px; 
+    color: #FC842D;
+    line-height: 122%; 
+    margin: 160px 0 35px 16px;  
+    text-transform: uppercase;
+}
+.error {
+  color: red;
+  font-family: "Verdana";
+  font-size: 14px;
+  margin-left: 16px;
+}
+.registerField {
+  font-family: "Verdana";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 122%;
+    letter-spacing: 0.56px; 
+    color: #9B9FAA;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-shadow: 0 2px 0 #E0E0E0;
+    margin-left: 16px;    
+    margin-bottom: 40px;
+}
+.loginRegisterPgBtn {
+  font-family: "Verdana";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.64px;
+    text-align: center;
+    max-width: 182px;
+    max-height: 44px;
+    color:#FC842D;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-color: #FC842D;
+    border-radius: 30px;
+    border: solid 2px;   
+    padding: 13px 37px;
+    margin: 20px;  
+}
+.registerBtnPgRegister {
+      font-family: "Verdana";
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.64px;
+      text-align: center;
+      max-width: 182px;
+      max-height: 44px;
+      color:#ffffff;
+      cursor: pointer;
+      background-color: #FC842D;
+      border-color: #FC842D;
+      border-radius: 30px;
+      border: solid 2px;   
+      padding: 13px 37px;
+      margin-left: 16px;
+      margin-right: 10px;  
+}
+.labelForm {
+  display: none;
+    }

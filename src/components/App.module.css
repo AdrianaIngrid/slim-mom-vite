@@ -1,0 +1,22 @@
+ul li {
+    list-style: none;
+}
+.ruleHoriz {
+    display: none;
+}
+
+@media screen and (max-width: 428px) {
+    
+      .ruleHoriz {
+        display: block;
+        color: #E0E0E0;
+      }
+  
+  }
+  @media screen and (max-width: 768px) {
+    .ruleHoriz {
+        display: block;
+        color: #E0E0E0;
+      }
+
+  }

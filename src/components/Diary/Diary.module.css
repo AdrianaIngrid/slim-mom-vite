@@ -1,0 +1,11 @@
+.diaryContainer {
+    display: flex;
+}
+.item1Diary {
+    width: 763px;
+}
+.item2Diary{
+    height: 850px;
+    width: 517px;
+    
+}

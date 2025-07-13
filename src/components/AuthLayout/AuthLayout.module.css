@@ -1,0 +1,128 @@
+.authContainer {
+    display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  }
+  .imagesContainer{
+    position: relative;
+  flex: 1;
+  }
+
+
+/* Vectorul gri */
+
+.vectorBg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 502px;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  /* Banana */
+  .bananaImg {
+    position: absolute;
+    max-width: 450px;
+    max-height: 552px;
+    bottom: 330px;
+    right: 0;
+    z-index: 2;
+  }
+  
+  /* Căpșuna */
+  .strawberryImg {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    max-width: 286px;
+    max-height: 279px;
+    z-index: 3;
+  }
+  
+  /* Frunza */
+  .leavesImg {
+    position: absolute;
+    top: 0;
+    right: 460px;
+    max-width: 746px;
+    height: 100%;
+    z-index: 4;
+  }
+  .formWrapper {
+    position: relative;
+    z-index: 10;  
+    flex: 1;
+    
+    
+  }
+  .leavesTabletImg {
+    display: none;
+  }
+
+
+  @media screen and (max-width: 428px) {
+    .vectorBg, .bananaImg, .strawberryImg, .leavesImg .leavesTabletImg {
+        display: none;
+      
+      }
+  }
+  @media screen and (max-width: 768px) {
+    .authContainer {
+        flex-direction: column;
+        max-height: 1024px; 
+      }
+      .imagesContainer {
+        order: 2; 
+        width: 100%;
+        height: auto;
+      }
+      
+      .formWrapper {
+        order: 1; 
+        width: 100%;
+        
+      }
+      
+     
+      .vectorBg, .bananaImg, .strawberryImg, .leavesImg .leavesTabletImg {
+        position: absolute;
+      
+      }
+       
+  .vectorBg {
+    top: -30px;
+    right: 0;
+    max-width: 400px; 
+    height: auto;
+  }
+
+  .bananaImg {
+    top: 90px;
+    right: 0;
+    max-width: 400px;
+  }
+
+  .strawberryImg {
+    bottom: -100px;
+    right: -30px;
+    width: 291px;
+    height: 284px;
+  }
+
+  .leavesTabletImg {
+    display: block;   
+    position: absolute;
+    top: -70px;
+    right: 210px;
+   max-width: 531px;
+   max-height: 602px;
+   
+  }
+ .leavesImg {
+    display: none;
+ }
+      
+  }

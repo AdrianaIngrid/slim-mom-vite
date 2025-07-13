@@ -1,0 +1,102 @@
+.LoginW {
+    font-family: "Verdana";
+    font-weight: 700;
+    font-size: 14px; 
+    color: #FC842D;
+    line-height: 122%; 
+    margin: 160px 0 35px 16px;  
+    text-transform: uppercase;
+}
+.error {
+    color: red;
+    font-family: "Verdana";
+    font-size: 14px;
+    margin-left: 16px;
+  }
+
+.loginField {
+    font-family: "Verdana";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 122%;
+    letter-spacing: 0.56px; 
+    color: #9B9FAA;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-shadow: 0 2px 0 #E0E0E0;
+    margin-left: 16px;    
+    margin-bottom: 40px;
+}
+.loginField:focus, .inputFormDates:hover {
+    outline: none;
+    background-color: transparent;
+
+}
+.loginField input::placeholder {
+    font-family: "Verdana";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.64px;
+    color: #9B9FAA;
+  }
+.RegLoginPgBtn {
+    font-family: "Verdana";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.64px;
+    text-align: center;
+    max-width: 182px;
+    max-height: 44px;
+    color:#FC842D;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-color: #FC842D;
+    border-radius: 30px;
+    border: solid 2px;   
+    padding: 13px 37px;
+    margin: 20px;  
+}
+.loginBtnPgLogin{
+    font-family: "Verdana";
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.64px;
+      text-align: center;
+      max-width: 181px;
+      max-height: 44px;
+      color:#ffffff;
+      cursor: pointer;
+      background-color: #FC842D;
+      border-color: #FC842D;
+      border-radius: 30px;
+      border: solid 2px;   
+      padding: 13px 50px;
+      margin-left: 16px;
+      margin-right: 10px;  
+  }
+  .formElements{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .labelForm {
+display: none;
+  }
+  /* Vizează toate stările: normal, hover, focus */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  background-color: #ffffff !important;   /* fundal alb */
+  color: #9B9FAA !important;                 /* text gri-închis */
+  box-shadow: 0 0 0 1000px #ffffff inset !important;
+  
+  transition: background-color 5000s ease-in-out 0s; 
+ 
+}

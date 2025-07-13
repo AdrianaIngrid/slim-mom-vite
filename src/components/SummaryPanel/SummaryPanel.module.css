@@ -1,0 +1,55 @@
+.summaryPanelDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F0F1F3;
+    flex-grow: 1;
+    height: 100%;
+    padding-left: 94px;
+}
+.summaryDate .summaryFoodTitle{
+    
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 82%;
+    letter-spacing: 0.56px;
+    color: #212121;
+}
+.summaryParagraph  {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    font-family: 'Verdana';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 82%;
+    letter-spacing: 0.56px;
+    color: #9B9FAA;
+    
+}
+.summaryParagraph p {
+    display: flex;
+  align-items: center;
+}
+.summaryParagraph p .rightValue {
+    margin-left: auto; 
+  }
+ 
+  .foodList {
+    font-family: 'Verdana';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 82%;
+    letter-spacing: 0.56px;
+    color: #9B9FAA;    
+    margin: 0;
+    padding: 20px;   
+    
+  }
+  @media screen and (max-width: 428px) {
+    .summaryPanelDiv {
+       
+        padding-left: 20px;
+    }
+  }

@@ -1,0 +1,135 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0000001a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0px 22px 40px 0px #0000001a;
+}
+
+.modalContent {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  max-height: 574px;
+  max-width: 672px;
+  text-align: center;
+}
+
+.scrollable {
+  max-height: 8rem;
+  overflow-y: auto;
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 14px;
+  color: #9b9faa;
+  line-height: 83%;
+  letter-spacing: 0.56px;
+}
+.modalCloseBtn {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+}
+.dailyParagraph {
+  font-family: 'Verdana';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 71.42%;
+  color: #212121;
+  text-align: center;
+  max-width: 508px;
+  max-height: 70px;
+}
+.dailyCalories {
+  font-family: 'Verdana';
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  line-height: 88.33%;
+  letter-spacing: 1.04px;
+  color: #264061;
+}
+.dailyCaloriesSpan {
+  font-family: 'Verdana';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 82%;
+  letter-spacing: 1.04px;
+  text-align: center;
+  color: #264061;
+}
+.dailyFoodsNotEat {
+  font-family: 'Verdana';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 82%;
+  letter-spacing: 0.56px;
+  color: #212121;
+}
+.uniqueTitle {
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 90%;
+  letter-spacing: 0.56px;
+  color: #9b9faa;
+  text-align: left;
+  text-indent: 14px;
+}
+
+.startLosingModalBtn {
+  max-width: 210px;
+  max-height: 43px;
+  cursor: pointer;
+  background-color: #fc842d;
+  padding: 13px 25px;
+  border-radius: 30px;
+  border: none;
+  color: #ffffff;
+}
+@media screen and (max-width: 428px) {
+  .modal{
+    height: 100vh;    /* umple toată înălțimea ecranului */
+    width: 100%;      /* se asigură că acoperă toată lățimea */
+    top: 0;
+    left: 0;
+  }
+  .modalContent {
+    padding: 0;    
+  }
+
+  .modalCloseBtn {
+    position: relative;
+  
+    display: block;
+    background: url('../Images/closeBtn.png') no-repeat 20px center;
+    background-size: 12px 7px;   
+    width: 100%; 
+    height: 40px;
+    background-color: #eff1f3;
+    margin: 0;
+    padding: 0;
+    color: transparent;
+    border-top: #E0E0E0;
+  }
+  .dailyParagraph {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 72%;
+    max-width: 280px;
+    max-height: 50px;
+    }
+}
+
